@@ -9,7 +9,7 @@ const myFileWriter = async (fileName, fileContent) => {
 const myFileReader = async (fileName) => {
 	// write code here
 	// dont chnage function name
-	console.log(fs.readFile(fileName))
+	return fs.readFile(fileName)
 }
 
 
