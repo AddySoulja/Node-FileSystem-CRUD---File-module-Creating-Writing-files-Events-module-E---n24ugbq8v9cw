@@ -9,7 +9,7 @@ const myFileWriter = async (fileName, fileContent) => {
 const myFileReader = async (fileName) => {
 	// write code here
 	// dont chnage function name
-	const data = await fs.readFile(fileName);
+	const data = await fs.readFile(fileName, 'utf8');
 	return data;
 }
 
